@@ -6,7 +6,7 @@ Para la instalación corre los siguientes comandos:
 
 ~~~
 git clone git@github.com:ander-lab/valgrind-docker.git $HOME/valgrind-docker
-echo "docker-valgrind="sh $HOME/valgrind-docker/valgrind.sh"" >> .zshrc
+echo 'alias docker-valgrind="sh /Users/ajimenez/valgrind-docker/valgrind.sh"' >> ~/.zshrc
 ~~~
 Estos comandos clonarán el programa en tu carpeta /home y añade a tu .zshrc la ruta para poder ejecutarlo.
 
