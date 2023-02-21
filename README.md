@@ -5,7 +5,7 @@ Necesitas lanzar la aplicacion de Docker antes de ejecutar el script.
 Para la instalación corre los siguientes comandos:
 
 ~~~
-git clone git@github.com:ander-lab/valgrind-docker.git $HOME
+git clone git@github.com:ander-lab/valgrind-docker.git $HOME/valgrind-docker
 echo "docker-valgrind="sh $HOME/valgrind-docker/valgrind.sh"" >> .zshrc
 ~~~
 Estos comandos clonarán el programa en tu carpeta /home y añade a tu .zshrc la ruta para poder ejecutarlo.
